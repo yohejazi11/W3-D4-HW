@@ -151,3 +151,9 @@ ul {
 .experience-item-major{
 font-size: 1.2rem;
 }
+
+.REFERENCE{
+    display: flex;
+    height: 30vh;
+    justify-content: space-between;
+}

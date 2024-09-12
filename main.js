@@ -1,5 +1,7 @@
 
 const namee=document.getElementById('name');
+const major=document.getElementById('major');
+
 const number=document.getElementById('number');
 
 const email=document.getElementById('email');
@@ -29,5 +31,8 @@ function update(id){
     }
     if(id==="name"){
         namee.textContent=`YOUSEF HEJAZI`;
+    }
+    if(id==="major"){
+        major.textContent=`computer scineces`;
     }
 }
