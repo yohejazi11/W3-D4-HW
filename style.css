@@ -1,0 +1,152 @@
+* {
+    font-size: 1rem;
+}
+
+.main-section {
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------LEFT SIDE---------------*/
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #163853;
+    width: 30vw;
+    padding: 1rem;
+    color: white;
+
+}
+
+.contact-content-div,
+.education-content-div,
+.skills-content-div,
+.languages-content-div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.left-side h2 {
+    border-bottom: 3px solid rgb(202, 201, 201);
+    padding-bottom: 20px;
+    width: 80%;
+    font-size: 1.75rem;
+    letter-spacing: 0.25rem;
+}
+
+.image-div {
+    width: 20vw;
+}
+
+.avater-image {
+    width: 100%;
+    border-radius: 50%;
+    border: 10px solid white;
+
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.contact-list li img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+/*--------------RIGHT SIDE---------------*/
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    padding: 1rem;
+    padding: 0 2rem;
+}
+
+.name{
+    font-size: 4rem;
+    font-weight: bold;
+    color: gray;
+    height: 10vh;
+}
+
+.name span{
+    color: #163853;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.major{
+    height: 10vh;
+    font-size: 2rem;
+    color: gray;
+    font-weight: 200;
+}
+
+.major::before{
+    content: '';
+    background-color: #163853;
+    height: 5px;
+    position: absolute;
+    top: 30%;
+    width: 10%;
+
+}
+
+.right-side-section-header {
+    font-size: 2rem;
+    color: #163853;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-bottom: 3px solid #163853;
+
+}
+
+.work-experience-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.right-side-section-header {
+    align-self: flex-start;
+}
+
+.experience-item {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.experience-item-header {
+    display: flex;
+    justify-content: space-between;
+}
+.experience-item ul {
+    width: 100%;
+    margin-left: 1.2rem;}
+
+
+.experience-item-title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: gray;
+    margin-bottom: 0;
+}
+
+.experience-item-major{
+font-size: 1.2rem;
+}
