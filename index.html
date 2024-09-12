@@ -12,22 +12,22 @@
     <div class="main-section" id="mainSecttion">
         <div class="left-side">
             <div class="image-div">
-                <img class="avater-image" src="https://i.pinimg.com/564x/4c/17/d8/4c17d802bcebafe263ade0032c04da08.jpg">
+                <img class="avater-image" id="avaterimage" onmouseover="update('avaterimage')" src="https://i.pinimg.com/564x/4c/17/d8/4c17d802bcebafe263ade0032c04da08.jpg">
             </div>
             <div class="contact-content-div">
                 <h2>CONTACT</h2>
                 <ul class="contact-list" id="contactList">
                     <li><img src="icons/phone-call.png">
-                        <p id="number">+123-456-7890</p>
+                        <p onmouseover="update('number')" id="number" class="number">+123-456-7890</p>
                     </li>
                     <li><img src="icons/mail.png">
-                        <p>hello@reallygreatsite.com </p>
+                        <p onmouseover="update('email')" id="email">hello@reallygreatsite.com </p>
                     </li>
                     <li><img src="icons/maps-and-flags.png">
-                        <p>123 Anywhere St., Any City </p>
+                        <p onmouseover="update('address')" id="address">123 Anywhere St., Any City </p>
                     </li>
                     <li><img src="icons/global.png">
-                        <p>www.reallygreatsite.com </p>
+                        <p onmouseover="update('web')" id="web">www.reallygreatsite.com </p>
                     </li>
                 </ul>
             </div>
@@ -75,7 +75,7 @@
         </div>
         <div class="right-side">
             <diiv class="header" id="header">
-                <h1 class="name" id="name">RICHARD <span>SANCHEZ </span></h1>
+                <h1 class="name" id="name" onmouseover="update('name')">RICHARD <span>SANCHEZ </span></h1>
                 <h3 class="major" id="major">MARKETING MANAGER</h3>
             </diiv>
             <div class="profile" id="profile">
